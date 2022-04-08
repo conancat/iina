@@ -17,7 +17,7 @@ jobs:
         run: ./other/download_libs.sh
 
       - name: Build
-        run: xcodebuild -project iina.xcodeproj -scheme iina CODE_SIGNING_ALLOWED=NO
+        run: xcodebuild -project iina.xcodeproj -scheme iina install 
       - uses: actions/upload-artifact@v3
         with:
-          path: /Users/runner/Library/Developer/Xcode/DerivedData/iina-*/Build/Products/Debug/IINA.app/
+          path: /tmp/iina.dst/
