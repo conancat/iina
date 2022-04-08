@@ -20,4 +20,4 @@ jobs:
         run: xcodebuild -project iina.xcodeproj -scheme iina CODE_SIGNING_ALLOWED=NO
       - uses: actions/upload-artifact@v3
         with:
-          path: /tmp/iina.dst/Applications/IINA.app/
+          path: /Users/runner/Library/Developer/Xcode/DerivedData/iina-*/Build/Products/Debug/IINA.app/
