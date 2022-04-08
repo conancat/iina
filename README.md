@@ -102,3 +102,6 @@ IINA is always looking for contributions, whether it's through bug reports, code
 * If you're looking to contribute code, please read [CONTRIBUTING.md](CONTRIBUTING.md)–it has information on IINA's process for handling contributions, and tips on how the code is structured to make your work easier.
 
 * If you'd like to translate IINA to your language, please visit [IINA's instance of Crowdin](https://translate.iina.io). You can create an account for free and start translating and/or approving. Please do not send pull request to this repo directly, Crowdin will automatically sync new translations with our repo. If you want to translate IINA into a new language that is currently not in the list, feel free to open an issue.
+
+
+
